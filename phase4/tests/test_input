@@ -1,0 +1,29 @@
+class Program{
+    int x,y[100];
+    boolean z,t[20];
+    int func1 (int a, boolean b){
+		int a,b,x,y;
+		a = 5;
+		d = 3 + 5*(y[a*3+5*b])/x;
+		s = foo(3 + 5*(y[a*3+5*b])/x);
+		a = -t- 3;
+		b = -a;
+		a += 5;
+		b -= 10;
+		b -= a;
+		if( (a == 5 && !(b == -5)) || ( b != -3) )
+		{
+			callout("test");
+			continue;
+		}
+		else
+		{
+			foo(a+b);
+			break;
+		}
+    }
+    
+  	boolean testReturn(boolean c) {
+  		return (!c);
+	}
+}

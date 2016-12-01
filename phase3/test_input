@@ -1,0 +1,85 @@
+class Program 
+{
+    boolean field;
+	int x,y;
+    int foo(int y) 
+    {
+        int q;
+        int i;
+		int j,k;
+        q = x[10];
+        i = 0;
+        q[i] = i;
+        i = -i- 1;
+        foo(0x2,5);
+        callout("foo",2,"test");
+        if(i<j)
+        {
+        }
+        if(i==j)
+        {
+        }
+        if(i!=j)
+        {
+        }
+        else
+        {
+        }
+        for x = y, j<10
+        {
+        }
+        break;
+        continue;
+        {
+        	int c,v,l;
+        	c[3] = 0;
+        	c+=9;
+        	c-=10;
+        	d = a+b/c-f;
+        }
+        return q;
+	}
+	boolean foo1(int y) 
+    {
+        int q;
+        int i;
+		int j,k;
+        q = x[10];
+        i = 0;
+        q[i] = i;
+        i = -i-j;
+        foo(0x2,5);
+        callout("foo",2,"ting");
+        if(i<j)
+        {
+        }
+        if(i==j)
+        {
+        }
+        if(i!=j)
+        {
+        }
+        else
+        {
+        }
+        for x = y, j<10
+        {
+        }
+        break;
+        continue;
+        {
+        	int c,v,l;
+        	c[3] = 0;
+        	c+=9;
+        	c-=10;
+        	d = a+b/c-f;
+        	c = 'm';
+        	c = '\\';
+        	c = '\n';
+        	c = '\t';
+        	c = '\"';
+        	c = '\'';
+        }
+        return 'm';
+	}
+}

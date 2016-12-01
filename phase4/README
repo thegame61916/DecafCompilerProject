@@ -1,0 +1,15 @@
+There are following 4 different files in code/versionA:
+1. llvm.l: It contains the the lex code to recognize lexemes and return the corresponding token to parser for decaf grammar. 
+2. llvm.y: It contains the code to parse a decaf program. Decaf grammar is specified in this file.
+3. llvm.h: It contains the classes corresponding to all non terminal nodes and their corresponding codeGen methods.
+4. llvm.cpp: It contains the definitions of code generators for different type of nodes in AST
+ 
+To run the code:
+1. Copy a test file containing decaf program to the folder test eg: "test_input".
+2. Go to directory code/versionA.
+3. Run command "make".
+4. run ./llvm test_input
+
+Please note that you don't need to specify the complete path of file "test_input" from code/versionA folder.
+
+Generated llvm IR will be written to "LLVM_output" file in code/versionA folder.

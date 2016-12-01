@@ -1,0 +1,350 @@
+<program>
+	<field_declarations count="3">
+		Normal
+		<declaration name="field" type="boolean" />
+		Normal
+		<declaration name="y" type="int" />
+		Normal
+		<declaration name="x" type="int" />
+	</field_declarations>
+	<methods count="2">
+		<method name="foo" return_type="int">
+			<params>
+				<param type="int" name="y">
+			</params>
+			<body>
+				<locals>
+					<local name="q" type="int" />
+					<local name="i" type="int" />
+					<local name="j" type="int" />
+					<local name="k" type="int" />
+				</locals>
+				<statements>
+					<assignment>
+						Normal
+						<location id="q"/>
+						Array
+						<location id="x"/>
+							<position>
+								<integer value ="10"/>
+							</position>
+						</location>
+					</assignment>
+					<assignment>
+						Normal
+						<location id="i"/>
+						<integer value ="0"/>
+					</assignment>
+					<assignment>
+						Array
+						<location id="q"/>
+							<position>
+								Normal
+								<location id="i"/>
+							</position>
+						</location>
+						Normal
+						<location id="i"/>
+					</assignment>
+					<assignment>
+						Normal
+						<location id="i"/>
+						<binary_expression type="minus">
+							<unary_expression type="minus">
+								Normal
+								<location id="i"/>
+							</unary_expression>
+							<integer value ="1"/>
+						</binary_expression>
+					</assignment>
+					<calling method name="foo">
+						<integer value ="0x2"/>
+						<integer value ="5"/>
+					</calling>
+					<callout function="foo">
+						<integer value ="2"/>
+						<string value ="test"/>
+					</callout>
+					<binary_expression type="less_than">
+						Normal
+						<location id="i"/>
+						Normal
+						<location id="j"/>
+					</binary_expression>
+					<locals>
+					</locals>
+					<statements>
+					</statements>
+					<binary_expression type="is_equal">
+						Normal
+						<location id="i"/>
+						Normal
+						<location id="j"/>
+					</binary_expression>
+					<locals>
+					</locals>
+					<statements>
+					</statements>
+					<binary_expression type="is_not_equal">
+						Normal
+						<location id="i"/>
+						Normal
+						<location id="j"/>
+					</binary_expression>
+					<locals>
+					</locals>
+					<statements>
+					</statements>
+					<locals>
+					</locals>
+					<statements>
+					</statements>
+					<for>
+						identifier value="x>
+						Normal
+						<location id="y"/>
+						<binary_expression type="less_than">
+							Normal
+							<location id="j"/>
+							<integer value ="10"/>
+						</binary_expression>
+						<locals>
+						</locals>
+						<statements>
+						</statements>
+					</for>
+					<locals>
+						<local name="c" type="int" />
+						<local name="v" type="int" />
+						<local name="l" type="int" />
+					</locals>
+					<statements>
+						<assignment>
+							Array
+							<location id="c"/>
+								<position>
+									<integer value ="3"/>
+								</position>
+							</location>
+							<integer value ="0"/>
+						</assignment>
+						<assignment>
+							Normal
+							<location id="c"/>
+							<integer value ="9"/>
+						</assignment>
+						<assignment>
+							Normal
+							<location id="c"/>
+							<integer value ="10"/>
+						</assignment>
+						<assignment>
+							Normal
+							<location id="d"/>
+							<binary_expression type="minus">
+								<binary_expression type="addition">
+									Normal
+									<location id="a"/>
+									<binary_expression type="division">
+										Normal
+										<location id="b"/>
+										Normal
+										<location id="c"/>
+									</binary_expression>
+								</binary_expression>
+								Normal
+								<location id="f"/>
+							</binary_expression>
+						</assignment>
+					</statements>
+					Normal
+					<location id="q"/>
+				</statements>
+			</body>
+		</method>
+		<method name="foo1" return_type="boolean">
+			<params>
+				<param type="int" name="y">
+			</params>
+			<body>
+				<locals>
+					<local name="q" type="int" />
+					<local name="i" type="int" />
+					<local name="j" type="int" />
+					<local name="k" type="int" />
+				</locals>
+				<statements>
+					<assignment>
+						Normal
+						<location id="q"/>
+						Array
+						<location id="x"/>
+							<position>
+								<integer value ="10"/>
+							</position>
+						</location>
+					</assignment>
+					<assignment>
+						Normal
+						<location id="i"/>
+						<integer value ="0"/>
+					</assignment>
+					<assignment>
+						Array
+						<location id="q"/>
+							<position>
+								Normal
+								<location id="i"/>
+							</position>
+						</location>
+						Normal
+						<location id="i"/>
+					</assignment>
+					<assignment>
+						Normal
+						<location id="i"/>
+						<binary_expression type="minus">
+							<unary_expression type="minus">
+								Normal
+								<location id="i"/>
+							</unary_expression>
+							Normal
+							<location id="j"/>
+						</binary_expression>
+					</assignment>
+					<calling method name="foo">
+						<integer value ="0x2"/>
+						<integer value ="5"/>
+					</calling>
+					<callout function="foo">
+						<integer value ="2"/>
+						<string value ="ting"/>
+					</callout>
+					<binary_expression type="less_than">
+						Normal
+						<location id="i"/>
+						Normal
+						<location id="j"/>
+					</binary_expression>
+					<locals>
+					</locals>
+					<statements>
+					</statements>
+					<binary_expression type="is_equal">
+						Normal
+						<location id="i"/>
+						Normal
+						<location id="j"/>
+					</binary_expression>
+					<locals>
+					</locals>
+					<statements>
+					</statements>
+					<binary_expression type="is_not_equal">
+						Normal
+						<location id="i"/>
+						Normal
+						<location id="j"/>
+					</binary_expression>
+					<locals>
+					</locals>
+					<statements>
+					</statements>
+					<locals>
+					</locals>
+					<statements>
+					</statements>
+					<for>
+						identifier value="x>
+						Normal
+						<location id="y"/>
+						<binary_expression type="less_than">
+							Normal
+							<location id="j"/>
+							<integer value ="10"/>
+						</binary_expression>
+						<locals>
+						</locals>
+						<statements>
+						</statements>
+					</for>
+					<locals>
+						<local name="c" type="int" />
+						<local name="v" type="int" />
+						<local name="l" type="int" />
+					</locals>
+					<statements>
+						<assignment>
+							Array
+							<location id="c"/>
+								<position>
+									<integer value ="3"/>
+								</position>
+							</location>
+							<integer value ="0"/>
+						</assignment>
+						<assignment>
+							Normal
+							<location id="c"/>
+							<integer value ="9"/>
+						</assignment>
+						<assignment>
+							Normal
+							<location id="c"/>
+							<integer value ="10"/>
+						</assignment>
+						<assignment>
+							Normal
+							<location id="d"/>
+							<binary_expression type="minus">
+								<binary_expression type="addition">
+									Normal
+									<location id="a"/>
+									<binary_expression type="division">
+										Normal
+										<location id="b"/>
+										Normal
+										<location id="c"/>
+									</binary_expression>
+								</binary_expression>
+								Normal
+								<location id="f"/>
+							</binary_expression>
+						</assignment>
+						<assignment>
+							Normal
+							<location id="c"/>
+							<boolean value ="'m'"/>
+						</assignment>
+						<assignment>
+							Normal
+							<location id="c"/>
+							<boolean value ="'\\'"/>
+						</assignment>
+						<assignment>
+							Normal
+							<location id="c"/>
+							<boolean value ="'\n'"/>
+						</assignment>
+						<assignment>
+							Normal
+							<location id="c"/>
+							<boolean value ="'\t'"/>
+						</assignment>
+						<assignment>
+							Normal
+							<location id="c"/>
+							<boolean value ="'\"'"/>
+						</assignment>
+						<assignment>
+							Normal
+							<location id="c"/>
+							<boolean value ="'\''"/>
+						</assignment>
+					</statements>
+					<boolean value ="'m'"/>
+				</statements>
+			</body>
+		</method>
+	</methods>
+</program>

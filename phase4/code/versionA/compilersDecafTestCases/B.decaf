@@ -1,0 +1,13 @@
+class Program	{
+int main()
+{
+	int a;	//input A
+	int x,ans;
+	for x=1, x<11
+	{
+		ans = x*a;
+		callout("printf", "%d\n", ans);
+	}
+	return 0;
+	}
+}
